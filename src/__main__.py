@@ -78,8 +78,8 @@ def mps_is_open():
 
 
 def should_toggle():
-    if not mps_is_open():
-        return False
+    # if not mps_is_open():
+    #     return False
 
     is_night = is_night_time()
     is_dark_mode = is_in_dark_mode()
