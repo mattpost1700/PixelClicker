@@ -4,3 +4,4 @@ pyautogui==0.9.54
 # webcolors==24.11.1
 plyer==2.1.0
 discord==2.3.2
+requests==2.32.3

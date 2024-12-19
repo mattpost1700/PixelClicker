@@ -56,8 +56,8 @@ def is_in_dark_mode():
 
 
 def is_night_time():
-    log(f"is_night_time: {hour=} {(hour < 8 or hour > 20)=}")
     hour = datetime.now().hour
+    log(f"is_night_time: {hour=} {(hour < 8 or hour > 20)=}")
     return hour < 8 or hour > 20
 
 
