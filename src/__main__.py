@@ -99,7 +99,7 @@ def main(refresh_seconds: int = 5):
     while True:
         if should_toggle():
             toggle_day_night()
-            time.sleep(5)  # in case there is GUI lag
+            time.sleep(10)  # in case there is GUI lag
             log(f"GUI toggled! GUI dark mode is now {is_in_dark_mode()}", discord=True)
 
         time.sleep(refresh_seconds)
